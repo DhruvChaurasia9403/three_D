@@ -11,7 +11,7 @@
 ## 📸 Screenshots
 | Home Screen                                     | 3D Interaction                           | Animation Preview                        | Video recording                               
 |-------------------------------------------------|------------------------------------------|------------------------------------------|-----------------------------------------------|
-| ![Screenshot 1](assets/screenshots/screen1.jpg) | ![Screenshot 2](assets/screenshots/screen2.jpg) | ![Screenshot 3](assets/screenshots/screen3.jpg) | [Watch Video](assets/screenshots/screen3.mp4) |
+| ![Screenshot 1](assets/screenshots/screen1.jpg) | ![Screenshot 2](assets/screenshots/screen2.jpg) | ![Screenshot 3](assets/screenshots/screen3.jpg) | [Watch Video](assets/screenshots/screen4.mp4) |
 
 *(Replace the images in the `screenshots/` folder with actual screenshots from your app.)*
 
