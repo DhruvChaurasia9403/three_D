@@ -1,16 +1,21 @@
 # three_d
 
-A new Flutter project.
+🚀 A visually stunning **3D UI experience** built using Flutter. This project explores integrating 3D models into a user interface, making apps more dynamic and immersive.
 
-## Getting Started
+## ✨ Features
+- 🎨 **Interactive 3D Model Integration**
+- ⚡ **Smooth Animations & Transitions**
+- 🖼️ **Customizable 3D Objects & Textures**
+- 📱 **Optimized for Mobile Performance**
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
+| Home Screen | 3D Interaction | Animation Preview |
+|------------|---------------|------------------|
+| ![Screenshot 1](screenshots/screen1.png) | ![Screenshot 2](screenshots/screen2.png) | ![Screenshot 3](screenshots/screen3.png) |
 
-A few resources to get you started if this is your first Flutter project:
+*(Replace the images in the `screenshots/` folder with actual screenshots from your app.)*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Installation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/DhruvChaurasia9403/your-repo-name.git

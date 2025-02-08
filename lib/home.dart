@@ -220,14 +220,9 @@ class _MyHomePageState extends State<MyHomePage> {
                               ],
                             ),
                             const Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
-                                SizedBox(
-                                  width: double.infinity,
-                                  child: FittedBox(
-                                    fit: BoxFit.fitWidth,
-                                    child: Text("Queen"),
-                                  ),
-                                ),
                                 SizedBox(
                                   width: double.infinity,
                                   child: FittedBox(
@@ -235,9 +230,25 @@ class _MyHomePageState extends State<MyHomePage> {
                                     child: Text("Demon"),
                                   ),
                                 ),
-                                Text(
-                                  "20000 years old",
-                                  style: TextStyle(fontSize: 12, color: Colors.black),
+                                SizedBox(
+                                  width: double.infinity,
+                                  child: FittedBox(
+                                    fit: BoxFit.fitWidth,
+                                    child: Text("Queen"),
+                                  ),
+                                ),
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.end,
+                                  children: [
+                                    Text(
+                                      "20000 ",
+                                      style: TextStyle(fontSize: 12, color: Colors.grey),
+                                    ),
+                                    Text(
+                                      "Years Old",
+                                      style: TextStyle(fontSize: 12, color: Colors.grey),
+                                    ),
+                                  ],
                                 ),
                               ],
                             ),
@@ -346,8 +357,18 @@ class _MyHomePageState extends State<MyHomePage> {
                         clipper: InvertedCircleClipper(),
                         child: BackdropFilter(
                           filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
-                          child: Container(
-                            color: Colors.grey.withOpacity(0.5), // Adjust the opacity as needed
+                          child: Container( // Adjust the opacity as needed
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: [
+                                  Colors.transparent,
+                                  Colors.white.withOpacity(0.2),// Royal Blue (Trust & Strength)
+                                ],
+                                stops: [0.0, 1.0],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              ),
+                            ),
                           ),
                         ),
                       )
