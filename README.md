@@ -9,9 +9,9 @@
 - 📱 **Optimized for Mobile Performance**
 
 ## 📸 Screenshots
-| Home Screen | 3D Interaction | Animation Preview |
-|------------|---------------|------------------|
-| ![Screenshot 1](screenshots/screen1.png) | ![Screenshot 2](screenshots/screen2.png) | ![Screenshot 3](screenshots/screen3.png) |
+| Home Screen                              | 3D Interaction                           | Animation Preview                        |
+|------------------------------------------|------------------------------------------|------------------------------------------|
+| ![Screenshot 1](screenshots/screen1.jpg) | ![Screenshot 2](screenshots/screen2.jpg) | ![Screenshot 3](screenshots/screen3.jpg) |
 
 *(Replace the images in the `screenshots/` folder with actual screenshots from your app.)*
 
