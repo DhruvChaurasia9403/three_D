@@ -307,48 +307,55 @@ class _MyHomePageState extends State<MyHomePage> {
                         controller: listViewController,
                         padding: EdgeInsets.fromLTRB(12, height * 0.8, 12, 100),
                         itemCount: 10,
-                        itemBuilder: (context, index) => Card(
-                          child: Padding(
-                            padding: const EdgeInsets.all(32.0),
-                            child: Row(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.asset('assets/image2.jpg',
-                                  fit: BoxFit.cover,
-                                  width: 70,
-                                  height: 70,
-                                ),
-                                const Expanded(
-                                  child: Padding(
-                                    padding: EdgeInsets.symmetric(horizontal: 8.0),
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: [
-                                        Text('10:24',
-                                          style: TextStyle(
-                                              color: Colors.grey,
-                                              fontSize: 12
+                        itemBuilder: (context, index) => Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15.0),
+                            color: Colors.white.withOpacity(0.5),
+                          ),
+                          child: Card(
+
+                            child: Padding(
+                              padding: const EdgeInsets.all(32.0),
+                              child: Row(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Image.asset('assets/image2.jpg',
+                                    fit: BoxFit.cover,
+                                    width: 70,
+                                    height: 70,
+                                  ),
+                                  const Expanded(
+                                    child: Padding(
+                                      padding: EdgeInsets.symmetric(horizontal: 8.0),
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text('10:24',
+                                            style: TextStyle(
+                                                color: Colors.grey,
+                                                fontSize: 12
+                                            ),
                                           ),
-                                        ),
-                                        Text('Morning walk',
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.bold,
+                                          Text('Morning walk',
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
-                                        ),
-                                        Text('2 km in 30min',
-                                          style: TextStyle(
-                                              color: Colors.grey,
-                                              fontSize: 12
+                                          Text('2 km in 30min',
+                                            style: TextStyle(
+                                                color: Colors.grey,
+                                                fontSize: 12
+                                            ),
                                           ),
-                                        ),
-                                      ],
+                                        ],
+                                      ),
                                     ),
                                   ),
-                                ),
-                                const Icon(Icons.directions_walk_rounded,
-                                  color: Colors.red,
-                                )
-                              ],
+                                  const Icon(Icons.directions_walk_rounded,
+                                    color: Colors.red,
+                                  )
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -392,7 +399,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 curve: Curves.ease);
 
             if (page == 0) {
-              o3dController.cameraTarget(1, 1.5, 1.5);
+              o3dController.cameraTarget(-0.25, 1.5, 0.5);
               o3dController.cameraOrbit(0, 90, 1);
             } else if (page == 1) {
               o3dController.cameraTarget(0.5, 1.5, -.3);// Adjust the positioning
